@@ -9,9 +9,6 @@ Smart Mirror focuses on a modular plugin system and uses [Electron](http://elect
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Modules](#modules)
-- [Known Issues](#known-issues)
-- [Community](#community)
-- [Contributing Guidelines](#contributing-guidelines)
 
 ## Usage
 
