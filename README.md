@@ -1,14 +1,5 @@
 !Smart Mirror: The open source modular smart mirror platform. ](.github/header.png)
 
-<p align="center">
-	<a href="https://david-dm.org/MichMich/MagicMirror"><img src="https://david-dm.org/MichMich/MagicMirror.svg" alt="Dependency Status"></a>
-	<a href="https://david-dm.org/MichMich/MagicMirror#info=devDependencies"><img src="https://david-dm.org/MichMich/MagicMirror/dev-status.svg" alt="devDependency Status"></a>
-	<a href="https://bestpractices.coreinfrastructure.org/projects/347"><img src="https://bestpractices.coreinfrastructure.org/projects/347/badge"></a>
-	<a href="http://choosealicense.com/licenses/mit"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-	<a href="https://travis-ci.org/MichMich/MagicMirror"><img src="https://travis-ci.org/MichMich/MagicMirror.svg" alt="Travis"></a>
-	<a href="https://snyk.io/test/github/MichMich/MagicMirror"><img src="https://snyk.io/test/github/MichMich/MagicMirror/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/MichMich/MagicMirror" style="max-width:100%;"></a>
-</p>
-
 **Smart Mirror** is an open source modular smart mirror platform. With a growing list of installable modules, the **MagicMirror²** allows you to convert your hallway or bathroom mirror into your personal assistant. **Smart Mirror** is built by the creator of [the original MagicMirror](http://michaelteeuw.nl/tagged/magicmirror) with the incredible help of a [growing community of contributors](https://github.com/MichMich/MagicMirror/graphs/contributors).
 
 Smart Mirror focuses on a modular plugin system and uses [Electron](http://electron.atom.io/) as an application wrapper. So no more web server or browser installs necessary!
@@ -45,38 +36,6 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/maste
 
 **Note:** if you want to debug on Raspberry Pi you can use `npm start dev` which will start the MagicMirror app with Dev Tools enabled.
 
-### Server Only
-In some cases, you want to start the application without an actual app window. In this case, you can start MagicMirror² in server only mode by manually running `node serveronly` or using Docker. This will start the server, after which you can open the application in your browser of choice. Detailed description below.
-
-#### Docker
-
-MagicMirror² in server only mode can be deployed using [Docker](https://docker.com). After a successful [Docker installation](https://docs.docker.com/engine/installation/) you just need to execute the following command in the shell:
-
-```bash
-docker run  -d \
-			--publish 80:8080 \
-			--restart always \
-			--volume ~/magic_mirror/config:/opt/magic_mirror/config \
-			--volume ~/magic_mirror/modules:/opt/magic_mirror/modules \
-			--name magic_mirror \
-			bastilimbach/docker-magicmirror
-```
-
-| **Volumes** | **Description** |
-| --- | --- |
-| `/opt/magic_mirror/config` | Mount this volume to insert your own config into the docker container. |
-| `/opt/magic_mirror/modules` | Mount this volume to add your own custom modules into the docker container. |
-
-You may need to add your Docker Host IP to your `ipWhitelist` option. If you have some issues setting up this configuration, check [this forum post](https://forum.magicmirror.builders/topic/1326/ipwhitelist-howto).
-
-```javascript
-var config = {
-	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:172.17.0.1"]
-};
-```
-
-If you want to run the server on a raspberry pi, use the `raspberry` tag. (bastilimbach/docker-magicmirror:raspberry)
-
 #### Manual
 
 1. Download and install the latest Node.js version.
@@ -90,9 +49,9 @@ The following wiki links are helpful in the configuration of your MagicMirror² 
 - [Configuring the Raspberry Pi](https://github.com/MichMich/MagicMirror/wiki/Configuring-the-Raspberry-Pi)
 - [Auto Starting MagicMirror](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
 
-### Updating your MagicMirror²
+### Updating your Smart Mirror
 
-If you want to update your MagicMirror² to the latest version, use your terminal to go to your Magic Mirror folder and type the following command:
+If you want to update your Smart Mirror to the latest version, use your terminal to go to your Magic Mirror folder and type the following command:
 
 ```bash
 git pull && npm install
@@ -149,32 +108,3 @@ The following modules are installed by default.
 - [**Compliments**](modules/default/compliments)
 - [**Hello World**](modules/default/helloworld)
 - [**Alert**](modules/default/alert)
-
-For more available modules, check out out the wiki page: [MagicMirror² Modules](https://github.com/MichMich/MagicMirror/wiki/MagicMirror²-Modules). If you want to build your own modules, check out the [MagicMirror² Module Development Documentation](modules) and don't forget to add it to the wiki and the [forum](https://forum.magicmirror.builders/category/7/showcase)!
-
-## Known issues
-
-- Electron seems to have some issues on certain Raspberry Pi 2's. See [#145](https://github.com/MichMich/MagicMirror/issues/145).
-- MagicMirror² (Electron) sometimes quits without an error after an extended period of use. See [#150](https://github.com/MichMich/MagicMirror/issues/150).
-
-## Community
-
-The community around the MagicMirror² is constantly growing. We even have a [forum](https://forum.magicmirror.builders) now where you can share your ideas, ask questions, help others and get inspired by other builders. We would love to see you there!
-
-## Contributing Guidelines
-
-Contributions of all kinds are welcome, not only in the form of code but also with regards bug reports and documentation.
-
-Please keep the following in mind:
-
-- **Bug Reports**:  Make sure you're running the latest version. If the issue(s) still persist: please open a clearly documented issue with a clear title.
-- **Minor Bug Fixes**: Please send a pull request with a clear explanation of the issue or a link to the issue it solves.
-- **Major Bug Fixes**: please discuss your approach in an GitHub issue before you start to alter a big part of the code.
-- **New Features**: please please discuss in a GitHub issue before you start to alter a big part of the code. Without discussion upfront, the pull request will not be accepted / merged.
-
-Thanks for your help in making MagicMirror² better!
-
-<p align="center">
-<br>
-	<a href="https://forum.magicmirror.builders/topic/728/magicmirror-is-voted-number-1-in-the-magpi-top-50"><img src="https://magicmirror.builders/img/magpi-best-watermark-custom.png" width="150" alt="MagPi Top 50"></a>
-</p>
