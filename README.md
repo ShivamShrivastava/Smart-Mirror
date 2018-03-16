@@ -28,7 +28,7 @@ Electron, only supports the Raspberry Pi 2 & 3. The Raspberry Pi 1 is currently 
 
 Execute the following command on your Raspberry Pi to install SmartMirror:
 ````
-bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/SmartMirror/master/installers/raspberry.sh)"
+bash -c "$(curl -sL https://raw.githubusercontent.com/ShivamShrivastava/SmartMirror/master/installers/raspberry.sh)"
 ````
 ## Install and run
 1. Enter the repository: `cd ~/SmartMirror`
