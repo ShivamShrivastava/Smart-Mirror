@@ -17,7 +17,6 @@ The **Smart Mirror** will consist of an electronic display along with a one-way 
 ## Table Of Contents
 
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Modules](#modules)
 
 ## Usage
