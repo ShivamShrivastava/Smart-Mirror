@@ -70,4 +70,4 @@ The following modules are installed by default.
 - [**Compliments**](modules/default/compliments)
 - [**Hello World**](modules/default/helloworld)
 - [**Alert**](modules/default/alert)
-- [**Motion Sensor**]
+- [**Motion Sensor**](https://github.com/paviro/MMM-PIR-Sensor)
