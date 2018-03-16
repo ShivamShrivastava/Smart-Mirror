@@ -35,39 +35,19 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/SmartMirror/maste
 1. Enter the repository: `cd ~/SmartMirror`
 2. Install and run the app: `npm install && npm start`
 
-**Important:** `npm start` does **not** work via SSH, use `DISPLAY=:0 nohup npm start &` instead. This starts the mirror on the remote display.
-
-**Note:** if you want to debug on Raspberry Pi you can use `npm start dev` which will start the SmartMirror app with Dev Tools enabled.
-
-### Updating your Smart Mirror
-
-If you want to update your Smart Mirror to the latest version, use your terminal to go to your Smart Mirror folder and type the following command:
-
-```bash
-git pull && npm install
-```
-
-If you changed nothing more than the config or the modules, this should work without any problems.
-Type `git status` to see your changes, if there are any, you can reset them with `git reset --hard`. After that, git pull should be possible.
-
-## Configuration
-
-You'll can check your configuration running the follow command:
-```bash
-npm run config:check
-```
-
-
 ## Modules
 
 The following modules are installed by default.
 
-- [**Clock**](modules/default/clock)
-- [**Calendar**](modules/default/calendar)
+- **Clock**
+- **Calendar**
+- **Compliments**
+- **Hello World**
+- **Alert**
+
+## Other Modules
+
 - [**Current Weather**](modules/default/currentweather)
 - [**Weather Forecast**](modules/default/weatherforecast)
 - [**News Feed**](modules/default/newsfeed)
-- [**Compliments**](modules/default/compliments)
-- [**Hello World**](modules/default/helloworld)
-- [**Alert**](modules/default/alert)
 - [**Motion Sensor**](https://github.com/paviro/MMM-PIR-Sensor)
