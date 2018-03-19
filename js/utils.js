@@ -1,9 +1,6 @@
 /* exported Utils */
-/* Magic Mirror
+/* Smart Mirror
  * Utils
- *
- * By Rodrigo Ramírez Norambuena https://rodrigoramirez.com
- * MIT Licensed.
  */
 
 var colors = require("colors/safe");
