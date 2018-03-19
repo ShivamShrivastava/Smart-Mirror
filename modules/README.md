@@ -1,6 +1,6 @@
-# SmartMirror² Module Development Documentation
+# SmartMirror Module Development Documentation
 
-This document describes the way to develop your own SmartMirror² modules.
+This document describes the way to develop your own SmartMirror modules.
 
 ## Module structure
 
