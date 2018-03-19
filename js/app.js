@@ -1,8 +1,5 @@
-/* Magic Mirror
+/* Smart Mirror
  * The Core App (Server)
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
  */
 
 var fs = require("fs");
@@ -13,7 +10,7 @@ var path = require("path");
 
 // Get version number.
 global.version = JSON.parse(fs.readFileSync("package.json", "utf8")).version;
-console.log("Starting MagicMirror: v" + global.version);
+console.log("Starting SmartMirror: v" + global.version);
 
 // global absolute root path
 global.root_path = path.resolve(__dirname + "/../");
@@ -23,7 +20,7 @@ if (process.env.MM_CONFIG_FILE) {
 }
 
 // FIXME: Hotfix Pull Request
-// https://github.com/MichMich/MagicMirror/pull/673
+// https://github.com/ShivamShrivastava/SmartMirror/pull/673
 if (process.env.MM_PORT) {
 	global.mmPort = process.env.MM_PORT;
 }
@@ -33,8 +30,8 @@ if (process.env.MM_PORT) {
 process.on("uncaughtException", function (err) {
 	console.log("Whoops! There was an uncaught exception...");
 	console.error(err);
-	console.log("MagicMirror will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?");
-	console.log("If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues");
+	console.log("SmartMirror will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?");
+	console.log("If you think this really is an issue, please open an issue on GitHub: https://github.com/ShivamShrivastava/SmartMirror/issues");
 });
 
 /* App - The core app.
@@ -54,7 +51,7 @@ var App = function() {
 		var defaults = require(__dirname + "/defaults.js");
 
 		// For this check proposed to TestSuite
-		// https://forum.magicmirror.builders/topic/1456/test-suite-for-magicmirror/8
+		// https://forum.smartmirror.builders/topic/1456/test-suite-for-smartmirror/8
 		var configFilename = path.resolve(global.root_path + "/config/config.js");
 		if (typeof(global.configuration_file) !== "undefined") {
 		    configFilename = path.resolve(global.configuration_file);
@@ -128,7 +125,7 @@ var App = function() {
 			var m = new Module();
 
 			if (m.requiresVersion) {
-				console.log("Check MagicMirror version for node helper '" + moduleName + "' - Minimum version:  " + m.requiresVersion + " - Current version: " + global.version);
+				console.log("Check SmartMirror version for node helper '" + moduleName + "' - Minimum version:  " + m.requiresVersion + " - Current version: " + global.version);
 				if (cmpVersions(global.version, m.requiresVersion) >= 0) {
 					console.log("Version is ok!");
 				} else {
@@ -239,3 +236,4 @@ var App = function() {
 };
 
 module.exports = new App();
+
