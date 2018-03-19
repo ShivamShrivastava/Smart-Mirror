@@ -1,12 +1,9 @@
 /* global Log, Class, Loader, Class , MM */
 /* exported Module */
 
-/* Magic Mirror
+/* Smart Mirror
  * Module Blueprint.
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
- */
+*/
 
 var Module = Class.extend({
 
@@ -14,7 +11,7 @@ var Module = Class.extend({
 	 * All methods (and properties) below can be subclassed. *
 	 *********************************************************/
 
-	// Set the minimum MagicMirror module version for this module.
+	// Set the minimum SmartMirror module version for this module.
 	requiresVersion: "2.0.0",
 
 	// Module config defaults.
@@ -69,7 +66,7 @@ var Module = Class.extend({
 	},
 
 	/* getDom()
-	 * This method generates the dom which needs to be displayed. This method is called by the Magic Mirror core.
+	 * This method generates the dom which needs to be displayed. This method is called by the Smart Mirror core.
 	 * This method needs to be subclassed if the module wants to display info on the mirror.
 	 *
 	 * return domobject - The dom to display.
@@ -93,7 +90,7 @@ var Module = Class.extend({
 
 	/* getHeader()
 	 * This method generates the header string which needs to be displayed if a user has a header configured for this module.
-	 * This method is called by the Magic Mirror core, but only if the user has configured a default header for the module.
+	 * This method is called by the Smart Mirror core, but only if the user has configured a default header for the module.
 	 * This method needs to be subclassed if the module wants to display modified headers on the mirror.
 	 *
 	 * return string - The header to display above the header.
@@ -104,7 +101,7 @@ var Module = Class.extend({
 
 	/* notificationReceived(notification, payload, sender)
 	 * This method is called when a notification arrives.
-	 * This method is called by the Magic Mirror core.
+	 * This method is called by the Smart Mirror core.
 	 *
 	 * argument notification string - The identifier of the notification.
 	 * argument payload mixed - The payload of the notification.
@@ -403,7 +400,7 @@ function cmpVersions(a, b) {
 Module.register = function (name, moduleDefinition) {
 
 	if (moduleDefinition.requiresVersion) {
-		Log.log("Check MagicMirror version for module '" + name + "' - Minimum version:  " + moduleDefinition.requiresVersion + " - Current version: " + version);
+		Log.log("Check SmartMirror version for module '" + name + "' - Minimum version:  " + moduleDefinition.requiresVersion + " - Current version: " + version);
 		if (cmpVersions(version, moduleDefinition.requiresVersion) >= 0) {
 			Log.log("Version is ok!");
 		} else {
