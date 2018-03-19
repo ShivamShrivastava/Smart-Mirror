@@ -1,11 +1,8 @@
 /* exported Log */
 
-/* Magic Mirror
+/* Smart Mirror
  * Socket Connection
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
- */
+*/
 
 var MMSocket = function(moduleName) {
 
