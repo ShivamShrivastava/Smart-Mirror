@@ -1,10 +1,8 @@
 /* exported defaults */
 
-/* Magic Mirror
+/* Smart Mirror
  * Config Defauls
  *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
  */
 
 var port = 8080;
@@ -33,7 +31,7 @@ var defaults = {
 			position: "upper_third",
 			classes: "large thin",
 			config: {
-				text: "Magic Mirror<sup>2</sup>"
+				text: "Smart Mirror<sup>2</sup>"
 			}
 		},
 		{
