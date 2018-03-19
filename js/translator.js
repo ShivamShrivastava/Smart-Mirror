@@ -1,5 +1,5 @@
 /* exported Translator */
-/* Magic Mirror
+/* Smart Mirror
  * Translator (l10n)
  *
  * By Christopher Fenner http://github.com/CFenner
