@@ -1,11 +1,8 @@
 /* global  Log, Loader, Module, config, defaults */
 /* jshint -W020 */
 
-/* Magic Mirror
+/* Smart Mirror
  * Main System
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
  */
 
 var MM = (function() {
@@ -401,7 +398,7 @@ var MM = (function() {
 		 * Main init method.
 		 */
 		init: function() {
-			Log.info("Initializing MagicMirror.");
+			Log.info("Initializing SmartMirror.");
 			loadConfig();
 			Translator.loadCoreTranslations(config.language);
 			Loader.loadModules();
