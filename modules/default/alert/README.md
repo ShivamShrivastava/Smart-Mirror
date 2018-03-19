@@ -1,5 +1,5 @@
 # Module: Alert
-The alert module is one of the default modules of the MagicMirror. This module displays notifications from other modules.
+The alert module is one of the default modules of the SmartMirror. This module displays notifications from other modules.
 
 ## Usage
 To use this module, add it to the modules array in the config/config.js file:
