@@ -1,4 +1,4 @@
-Please only submit reproducible issues. 
+Please only submit reproducible issues.
 
 If you're not sure if it's a real bug or if it's just you, please open a topic on the forum: [https://forum.smartmirror.builders/category/15/bug-hunt](https://forum.smartmirror.builders/category/15/bug-hunt)
 Problems installing or configuring your SmartMirror? Check out: [https://forum.smartmirror.builders/category/10/troubleshooting](https://forum.smartmirror.builders/category/10/troubleshooting)
