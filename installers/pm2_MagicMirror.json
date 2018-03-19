@@ -1,7 +1,7 @@
 {
   "apps" : [{
-    "name"        : "MagicMirror",
-    "script"      : "/home/pi/MagicMirror/installers/mm.sh",
-    "watch"       : ["/home/pi/MagicMirror/config/config.js"]
+    "name"        : "SmartMirror",
+    "script"      : "/home/pi/SmartMirror/installers/mm.sh",
+    "watch"       : ["/home/pi/SmartMirror/config/config.js"]
   }]
 }
