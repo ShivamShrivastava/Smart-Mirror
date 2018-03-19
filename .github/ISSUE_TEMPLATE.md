@@ -1,7 +1,7 @@
 Please only submit reproducible issues. 
 
-If you're not sure if it's a real bug or if it's just you, please open a topic on the forum: [https://forum.magicmirror.builders/category/15/bug-hunt](https://forum.magicmirror.builders/category/15/bug-hunt)
-Problems installing or configuring your MagicMirror? Check out: [https://forum.magicmirror.builders/category/10/troubleshooting](https://forum.magicmirror.builders/category/10/troubleshooting)
+If you're not sure if it's a real bug or if it's just you, please open a topic on the forum: [https://forum.smartmirror.builders/category/15/bug-hunt](https://forum.smartmirror.builders/category/15/bug-hunt)
+Problems installing or configuring your SmartMirror? Check out: [https://forum.smartmirror.builders/category/10/troubleshooting](https://forum.smartmirror.builders/category/10/troubleshooting)
 
 When submitting a new issue, please supply the following information:
 
@@ -9,7 +9,7 @@ When submitting a new issue, please supply the following information:
 
 **Node Version**: Make sure it's version 0.12.13 or later.
 
-**MagicMirror Version**: Now that the versions have split, tell us if you are using the PHP version (v1) or the newer JavaScript version (v2).
+**SmartMirror Version**: Now that the versions have split, tell us if you are using the PHP version (v1) or the newer JavaScript version (v2).
 
 **Description**: Provide a detailed description about the issue and include specific details to help us understand the problem. Adding screenshots will help describing the problem.
 
