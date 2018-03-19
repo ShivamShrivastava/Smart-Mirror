@@ -1,8 +1,4 @@
-/* Magic Mirror Deprecated Config Options List
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
- *
+/* Smart Mirror Deprecated Config Options List
  * Olex S. original idea this deprecated option
  */
 
