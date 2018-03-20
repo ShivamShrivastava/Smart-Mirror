@@ -26,7 +26,7 @@
 	"NW": "NW",
 	"NNW": "NNW",
 
-	"UPDATE_NOTIFICATION": "MagicMirror² update available.",
+	"UPDATE_NOTIFICATION": "SmartMirror² update available.",
 	"UPDATE_NOTIFICATION_MODULE": "Update available for MODULE_NAME module.",
 	"UPDATE_INFO": "The current installation is COMMIT_COUNT behind on the BRANCH_NAME branch."
 }
