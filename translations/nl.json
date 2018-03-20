@@ -24,7 +24,7 @@
 	"NW": "NW",
 	"NNW": "NNW",
 
-	"UPDATE_NOTIFICATION": "MagicMirror² update beschikbaar.",
+	"UPDATE_NOTIFICATION": "SmartMirror² update beschikbaar.",
 	"UPDATE_NOTIFICATION_MODULE": "Update beschikbaar voor MODULE_NAME module.",
 	"UPDATE_INFO": "De huidige installatie loopt COMMIT_COUNT achter op de BRANCH_NAME branch."
 }
