@@ -1,5 +1,5 @@
 # Module: News Feed
-The `newsfeed ` module is one of the default modules of the MagicMirror.
+The `newsfeed ` module is one of the default modules of the SmartMirror.
 This module displays news headlines based on an RSS feed. Scrolling through news headlines happens time-based (````updateInterval````), but can also be controlled by sending news feed specific notifications to the module.
 
 ## Using the module
@@ -18,12 +18,12 @@ modules: [
 
 			feeds: [
 				{
-					title: "New York Times",
-					url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+					title: "India Today",
+					url: "http://www.indiatoday.com/services/xml/rss/nyt/HomePage.xml",
 				},
 				{
 					title: "BBC",
-					url: "http://feeds.bbci.co.uk/news/video_and_audio/news_front_page/rss.xml?edition=uk",
+					url: "http://feeds.bbci.co.in/news/video_and_audio/news_front_page/rss.xml?edition=uk",
 				},
 			]
 		}
@@ -33,7 +33,7 @@ modules: [
 
 ### Notifications
 #### Interacting with the module
-MagicMirror's [notification mechanism](https://github.com/MichMich/MagicMirror/tree/master/modules#thissendnotificationnotification-payload) allows to send notifications to the `newsfeed` module. The following notifications are supported:
+SmartMirror's [notification mechanism](https://github.com/ShivamShrivastava/SmartMirror/tree/master/modules#thissendnotificationnotification-payload) allows to send notifications to the `newsfeed` module. The following notifications are supported:
 
 | Notification Identifier | Description
 | ----------------------- | -----------
@@ -45,13 +45,13 @@ MagicMirror's [notification mechanism](https://github.com/MichMich/MagicMirror/t
 Note the payload of the sent notification event is ignored.
 
 #### Example
-The following example shows how the next news article title can be displayed on the MagicMirror.
+The following example shows how the next news article title can be displayed on the SmartMirror.
 ````javascript
 this.sendNotification('ARTICLE_NEXT');
 ````
 
 #### `newsfeed` specific notification emitting modules
-The third party [MMM-Gestures](https://github.com/thobach/MMM-Gestures) module supports above notifications when moving your hand up, down, left or right in front of a gesture sensor attached to the MagicMirror. See module's readme for more details.
+The third party [MMM-Gestures](https://github.com/thobach/MMM-Gestures) module supports above notifications when moving your hand up, down, left or right in front of a gesture sensor attached to the SmartMirror. See module's readme for more details.
 
 ## Configuration options
 
