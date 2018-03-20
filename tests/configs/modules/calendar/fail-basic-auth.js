@@ -1,9 +1,6 @@
-/* Magic Mirror Test calendar calendar
+/* Smart Mirror Test calendar calendar
  *
  * This configuration is a wrong authentication
- *
- * By Rodrigo Ramírez Norambuena https://rodrigoramirez.com
- * MIT Licensed.
  */
 
 var config = {
