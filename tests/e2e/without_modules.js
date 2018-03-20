@@ -41,7 +41,7 @@ describe("Check configuration without modules", function () {
 
 	it("Show the message MagicMirror title", function () {
 		return app.client.waitUntilWindowLoaded()
-			.getText("#module_1_helloworld .module-content").should.eventually.equal("Magic Mirror2")
+			.getText("#module_1_helloworld .module-content").should.eventually.equal("Smart Mirror2")
 	});
 
 	it("Show the text Michael's website", function () {
