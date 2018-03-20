@@ -1,6 +1,6 @@
 /* global Module */
 
-/* Magic Mirror
+/* Smart Mirror
  * Module: WeatherForecast
  */
 
