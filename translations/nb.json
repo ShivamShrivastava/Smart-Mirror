@@ -26,7 +26,7 @@
 	"NW": "NV",
 	"NNW": "NNV",
 
-	"UPDATE_NOTIFICATION": "MagicMirror²-oppdatering er tilgjengelig.",
+	"UPDATE_NOTIFICATION": "SmartMirror²-oppdatering er tilgjengelig.",
 	"UPDATE_NOTIFICATION_MODULE": "Oppdatering tilgjengelig for modulen MODULE_NAME.",
 	"UPDATE_INFO": "Nåværende installasjon er COMMIT_COUNT bak BRANCH_NAME grenen."
 }
