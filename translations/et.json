@@ -24,7 +24,7 @@
 	"NW": "Loe",
 	"NNW": "Põhjaloe",
 
-	"UPDATE_NOTIFICATION": "MagicMirror²´le uuendus saadaval.",
+	"UPDATE_NOTIFICATION": "SmartMirror²´le uuendus saadaval.",
 	"UPDATE_NOTIFICATION_MODULE": "Uuendus saadaval MODULE_NAME moodulile.",
 	"UPDATE_INFO": "Praegune paigaldus on COMMIT_COUNT tagapool BRANCH_NAME harul."
 }
