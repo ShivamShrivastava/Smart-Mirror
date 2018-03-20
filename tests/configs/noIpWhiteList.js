@@ -1,7 +1,4 @@
-/* Magic Mirror Test config sample ipWhitelist
- *
- * By Rodrigo Ramírez Norambuena https://rodrigoramirez.com
- * MIT Licensed.
+/* Smart Mirror Test config sample ipWhitelist
  */
 
 var config = {
