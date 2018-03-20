@@ -1,5 +1,5 @@
 # Module: Current Weather
-The `currentweather` module is one of the default modules of the MagicMirror.
+The `currentweather` module is one of the default modules of the SmartMirror.
 This module displays the current weather, including the windspeed, the sunset or sunrise time, the temperature and an icon to display the current conditions.
 
 ## Using the module
