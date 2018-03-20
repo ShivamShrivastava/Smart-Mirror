@@ -1,10 +1,6 @@
 /* global Module */
 
-/* Magic Mirror
- * Module: HelloWorld
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
+/* Smart Mirror
  */
 
 Module.register("helloworld",{
