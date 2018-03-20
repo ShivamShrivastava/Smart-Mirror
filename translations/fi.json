@@ -24,6 +24,6 @@
 	"NW": "PL",
 	"NNW": "PPL",
 	
-	"UPDATE_NOTIFICATION": "MagicMirror² päivitys saatavilla.",
+	"UPDATE_NOTIFICATION": "SmartMirror² päivitys saatavilla.",
 	"UPDATE_NOTIFICATION_MODULE": "Päivitys saatavilla moduulille MODULE_NAME."
 }
