@@ -1,11 +1,6 @@
-/* Magic Mirror
+/* Smart Mirror
  *
  * Checker configuration file
- *
- * By Rodrigo Ramírez Norambuena
- *    https://rodrigoramirez.com
- *
- * MIT Licensed.
  *
  */
 
