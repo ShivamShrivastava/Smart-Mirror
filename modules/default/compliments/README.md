@@ -1,5 +1,5 @@
 # Module: Compliments
-The `compliments` module is one of the default modules of the MagicMirror.
+The `compliments` module is one of the default modules of the SmartMirror.
 This module displays a random compliment.
 
 ## Using the module
