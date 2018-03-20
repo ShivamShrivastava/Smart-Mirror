@@ -1,10 +1,7 @@
 /* global Log, Module, moment */
 
-/* Magic Mirror
+/* Smart Mirror
  * Module: Compliments
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
  */
 Module.register("compliments", {
 
@@ -21,7 +18,7 @@ Module.register("compliments", {
 			],
 			afternoon: [
 				"Hello, beauty!",
-				"You look sexy!",
+				"You look nice!",
 				"Looking good today!"
 			],
 			evening: [
