@@ -1,10 +1,7 @@
 /*
- * Magic Mirror
+ * Smart Mirror
  *
  * Global Setup Test Suite
- *
- * By Rodrigo Ramírez Norambuena https://rodrigoramirez.com
- * MIT Licensed.
  *
 */
 
