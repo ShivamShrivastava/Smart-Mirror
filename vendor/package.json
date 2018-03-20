@@ -1,13 +1,13 @@
 {
-  "name": "magicmirror-vendors",
-  "description": "Package for vendors use by MagicMirror Core.",
+  "name": "Smartmirror-vendors",
+  "description": "Package for vendors use by SmartMirror Core.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichMich/MagicMirror.git"
+    "url": "git+https://github.com/MichMich/SmartMirror.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MichMich/MagicMirror/issues"
+    "url": "https://github.com/MichMich/SmartMirror/issues"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
