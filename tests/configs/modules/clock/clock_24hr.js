@@ -1,7 +1,4 @@
-/* Magic Mirror Test config for default clock module
- *
- * By Sergey Morozov
- * MIT Licensed.
+/* Smart Mirror Test config for default clock module
  */
 
 var config = {
