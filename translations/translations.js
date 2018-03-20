@@ -1,4 +1,4 @@
-/* Magic Mirror
+/* Smart Mirror
  * Translation Definition
  *
  * By Michael Teeuw http://michaelteeuw.nl
