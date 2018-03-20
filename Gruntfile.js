@@ -44,7 +44,7 @@ module.exports = function(grunt) {
 					".stylelintrc",
 					"translations/*.json",
 					"modules/default/*/translations/*.json",
-					"installers/pm2_MagicMirror.json",
+					"installers/pm2_SmartMirror.json",
 					"vendor/package.js"
 				],
 				options: {
