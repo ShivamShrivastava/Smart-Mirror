@@ -1,7 +1,4 @@
-/* Magic Mirror Test config sample enviroment set por 8090
- *
- * By Rodrigo Ramírez Norambuena https://rodrigoramirez.com
- * MIT Licensed.
+/* Smart Mirror Test config sample enviroment set por 8090
  */
 
 var config = {
