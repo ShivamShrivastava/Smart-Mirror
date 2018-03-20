@@ -1,6 +1,6 @@
 /* exported vendor */
 
-/* Magic Mirror
+/* Smart Mirror
  * Vendor File Definition
  *
  * By Michael Teeuw http://michaelteeuw.nl
