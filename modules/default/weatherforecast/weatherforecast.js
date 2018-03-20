@@ -2,9 +2,6 @@
 
 /* Magic Mirror
  * Module: WeatherForecast
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
  */
 
 Module.register("weatherforecast",{
