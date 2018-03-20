@@ -1,8 +1,5 @@
-/* Magic Mirror
+/* Smart Mirror
  * Node Helper: Newsfeed
- *
- * By Michael Teeuw http://michaelteeuw.nl
- * MIT Licensed.
  */
 
 var NodeHelper = require("node_helper");
